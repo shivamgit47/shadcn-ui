@@ -1,7 +1,7 @@
 import axios from 'axios';
 // const URL="https://fakestoreapi.com";
 
-//creating axios instanceS
+//creating axios instanceS  
 const axiosInstance = axios.create({
     baseURL:"https://fakestoreapi.com",
     headers:{
