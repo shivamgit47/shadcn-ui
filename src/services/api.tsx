@@ -12,7 +12,7 @@ const axiosInstance = axios.create({
 // Add a request interceptor
 axiosInstance.interceptors.request.use(function (config) {
     // Do something before request is sent
-    Object.assign(config,{test:'1212'})
+    Object.assign(config,{test:'1214'})
     return config;
   }, function (error) {
     // Do something with request error
